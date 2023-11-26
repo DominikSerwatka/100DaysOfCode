@@ -52,7 +52,7 @@ print(f"Your passward is : {passward}")
 random.shuffle(passward_list)
 passward = ""
 passward = passward.join(passward_list)
-print(f"Your passward using \'shuffle()\' function is : {passward_list}")
-print(passward)
+print(f"Your passward using \'shuffle()\' function is : {passward}")
+
 
     
