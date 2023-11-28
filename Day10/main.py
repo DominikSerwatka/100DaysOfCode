@@ -27,11 +27,11 @@ operations = {
 
 def calculator():
     print(logo)
-    num1 = int(input("What's the first number?: "))
+    num1 = float(input("What's the first number?: "))
     for oper in operations:
         print(oper)
     operation_symbol = input("Pick an operation from the line above: ")
-    num2 = int(input("What's the second number?: "))
+    num2 = float(input("What's the second number?: "))
     answer1 = operations[operation_symbol](num1, num2)
     print(f"{num1} {operation_symbol} {num2} = {answer1}")
     run = False
@@ -47,7 +47,7 @@ def calculator():
     while run:
         
         operation_symbol = input("Pick another operation from the line above: ")
-        num3 = int(input("What's the next number?: "))
+        num3 = float(input("What's the next number?: "))
         answer2 = operations[operation_symbol](answer1, num3)
         print(f"{answer1} {operation_symbol} {num3} = {answer2}")
         answer1 = answer2
