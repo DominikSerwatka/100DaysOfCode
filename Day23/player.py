@@ -25,9 +25,11 @@ class Player(Turtle):
         self.start_position()
 
     def detect_finish(self):
-        if self.ycor() >= FINISH_LINE_Y:
+        if self.ycor() > FINISH_LINE_Y:
             self.reset_position()
             return True
+        else:
+            return False
 
 
 
