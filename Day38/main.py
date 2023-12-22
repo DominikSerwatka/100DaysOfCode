@@ -44,7 +44,7 @@ for item in data['exercises']:
         }
     }
     response_sheet = requests.post(url=SHEET_ENDPOINT, json=parameters, headers=headers_sheets)
-    
+
 
 
 
