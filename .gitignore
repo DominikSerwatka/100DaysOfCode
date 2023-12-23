@@ -108,3 +108,17 @@ Day39/data_manager.py
 Day39/__pycache__/flight_search.cpython-312.pyc
 Day39/__pycache__/flight_data.cpython-312.pyc
 Day39/__pycache__/data_manager.cpython-312.pyc
+Day40/main.py
+Day40/flight-deals-end/notification_manager.py
+Day40/flight-deals-end/main.py
+Day40/flight-deals-end/flight_search.py
+Day40/flight-deals-end/flight_data.py
+Day40/flight-deals-end/data_manager.py
+Day40/flight-deals-end/__pycache__/notification_manager.cpython-312.pyc
+Day40/flight-deals-end/__pycache__/flight_search.cpython-312.pyc
+Day40/flight-deals-end/__pycache__/flight_data.cpython-312.pyc
+Day40/flight-deals-end/__pycache__/data_manager.cpython-312.pyc
+Day40/flight-app/flight-deals-end/__pycache__/notification_manager.cpython-312.pyc
+Day40/flight-app/flight-deals-end/__pycache__/flight_search.cpython-312.pyc
+Day40/flight-app/flight-deals-end/__pycache__/flight_data.cpython-312.pyc
+Day40/flight-app/flight-deals-end/__pycache__/data_manager.cpython-312.pyc
