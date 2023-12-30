@@ -14,8 +14,9 @@ scope = "playlist-modify-private"
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, redirect_uri="http://localhost/"))
 
 list_of_uri = []
+year = user_input.split("-")[0]
 for song in songs_list:
-    data = sp.search(q=song, type="track")
+    data = sp.search(q=f"track:{song} year:{year}", type="track")
     if data['tracks']['total'] == 0:
         continue
     list_of_uri.append(data['tracks']['items'][0]['uri'])
