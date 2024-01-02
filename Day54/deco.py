@@ -9,6 +9,7 @@ def decorator_function(function):
 
 import time
 
+
 def delay_decorator(function):
     def wrapper_function():
         print(type(function.__name__))
