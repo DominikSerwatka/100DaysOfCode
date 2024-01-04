@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+<body>
+    {% for item in posts: %}
+        {% if item['id']==2: %}
+        <h1>{{item['title']}}</h1>
+        <p>{{item['body']}}</p>
+        {% else: %}
+        <p>{{item["id"]}}</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
