@@ -1,0 +1,1 @@
+app.secret_key = 'abd-te*03JDssdsdfgewq2@#@33v'
