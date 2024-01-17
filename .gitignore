@@ -146,3 +146,11 @@ Nba
 Day54/deco.py
 Day56/hello.py
 Day51/main.py
+Day62/day-62-coffee-and-wifi-end/cafe-data.csv
+Day62/day-62-coffee-and-wifi-end/main.py
+Day62/day-62-coffee-and-wifi-end/requirements.txt
+Day62/day-62-coffee-and-wifi-end/static/css/styles.css
+Day62/day-62-coffee-and-wifi-end/templates/add.html
+Day62/day-62-coffee-and-wifi-end/templates/base.html
+Day62/day-62-coffee-and-wifi-end/templates/cafes.html
+Day62/day-62-coffee-and-wifi-end/templates/index.html
