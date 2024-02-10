@@ -25,10 +25,10 @@ def print_hello():
 
 def print_bye():
     print("Bye world")
-
-print("test")
+#
+# print("test")
 print_hello()
-print("----------------")
-output_func = delay_decorator(print_bye)
-output_func()
+# print("----------------")
+# output_func = delay_decorator(print_bye)
+# output_func()
 
